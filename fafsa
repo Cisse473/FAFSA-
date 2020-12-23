@@ -1,0 +1,31 @@
+Monthly CSV file //
+School reopening plans
+
+In schools with the highest graduation rates/ FAFSA completion, are there disparities amongst different demographics?*
+Charter School of Wilmington 
+Newark Charter
+Cab Calloway 
+Sussex Academy 
+Conrad School of the 	Sciences 
+
+*No school level data. 
+
+Broken down by race at district level. Bar graphs
+
+Appo-  
+Red Clay 
+Christiana
+
+
+Script: 
+
+
+View(monthly_fafsa)
+summary(monthly_fafsa$White)
+table(monthly_fafsa$CompletedApplications)
+install.packages("tidyverse")
+monthly_fafsa %>% select(Latinx) %>% summary()
+monthly_race <- monthly_fafsa %>% select (African_American_Percent,White_Percent )
+ggplot2 (monthly_fafsa, ase((x-axis, y-asix, White))
+
+
